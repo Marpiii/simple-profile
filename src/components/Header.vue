@@ -71,8 +71,8 @@ onUnmounted(() => {
   </div>
   <div>
     Brian Abraham (aka MarV), Work as game developer,
-    <a href="https://youtube.com/@marvbtm?si=EiSURFRZAbfMP3It" target="_blank" class="underline">youtube channel</a>
-    feel free to subs. programming, music, gaming.
+    <a href="https://discord.com/users/907316283320725614" target="_blank" class="underline">Contact Me</a>
+    ,feel free to talk. programming, music, gaming.
   </div>
   <div class="flex items-center gap-2 text-sm text-gruvbox-gray">
     <font-awesome-icon :icon="['fab', 'spotify']" class="w-4 h-4 mr-0.5" />
@@ -93,7 +93,7 @@ onUnmounted(() => {
     <div v-else>i'm not working on anything right now.</div>
   </div>
   <div class="flex gap-10 mt-5 text-xl">
-    <a href="https://github.com/profile/" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a>
+    <a href="https://discord.com/users/907316283320725614" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a>
     <a href="https://discord.com/users/907316283320725614" target="_blank"><font-awesome-icon :icon="['fab', 'discord']" /></a>
   </div>
 </template>
