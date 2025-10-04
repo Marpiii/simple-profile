@@ -14,7 +14,7 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">Biji Pler KudaLareii.Github.Io</div>
+        <div class="font-bold text-lg">Biji Pler Lu </div>
         <div class="text-gray-300">Pake aja ga usah nanya.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 10 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 1</div>
       </div>
