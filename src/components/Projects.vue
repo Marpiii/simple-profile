@@ -4,7 +4,7 @@
   <div class="grid md:grid-cols-2 gap-2">
     <!-- Project: lareii.github.io -->
     <a
-      href="https://github.com/lareii/lareii.github.io"
+      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -22,7 +22,7 @@
 
     <!-- Project: siker.im -->
     <a
-      href="https://github.com/lareii/siker.im"
+      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -39,7 +39,7 @@
 
     <!-- Project: FdF -->
     <a
-      href="https://github.com/lareii/FdF"
+      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -56,7 +56,7 @@
 
     <!-- Project: cub3D -->
     <a
-      href="https://github.com/lareii/cub3D"
+      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
