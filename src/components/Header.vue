@@ -67,7 +67,7 @@ onUnmounted(() => {
 
 <template>
   <div class="font-sans font-black text-5xl">
-    lareii<span :class="['text-2xl', status]">.github.io</span>
+    MarV<span :class="['text-2xl', status]">Website Profile</span>
   </div>
   <div>
     Brian Abraham (aka MarV), Work as game developer,
