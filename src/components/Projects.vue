@@ -4,7 +4,7 @@
   <div class="grid md:grid-cols-2 gap-2">
     <!-- Project: lareii.github.io -->
     <a
-      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
+      href="https://e-z.bio/marv"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -14,15 +14,15 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">Biji Pler Lu </div>
-        <div class="text-gray-300">Pake aja ga usah nanya.</div>
-        <div class="mt-2 text-xs text-gray-500">⭐ 10 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 1</div>
+        <div class="font-bold text-lg">Other Profile </div>
+        <div class="text-gray-300">Website Paling Simple & Praktis.</div>
+        <div class="mt-2 text-xs text-gray-500">⭐ 100 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 100</div>
       </div>
     </a>
 
     <!-- Project: siker.im -->
     <a
-      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
+      href="https://e-z.bio/marv"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -31,7 +31,7 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">kuda onta</div>
+        <div class="font-bold text-lg">Project Kedua</div>
         <div class="text-gray-300">Banyak Nanya lu.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 7 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 2</div>
       </div>
@@ -39,7 +39,7 @@
 
     <!-- Project: FdF -->
     <a
-      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
+      href="https://e-z.bio/marv"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -48,7 +48,7 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">pler kambinh</div>
+        <div class="font-bold text-lg">Project ketiga</div>
         <div class="text-gray-300">ga tau males gua.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 5 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 0</div>
       </div>
@@ -56,7 +56,7 @@
 
     <!-- Project: cub3D -->
     <a
-      href="https://chat.whatsapp.com/LGyajryoaB5BIZaZyQMUzW?mode=ems_copy_t"
+      href="https://e-z.bio/marv"
       target="_blank"
       class="flex items-start gap-3 px-4 py-3 bg-[#202020]/30 border border-[#504945] rounded-lg text-sm hover:bg-[#2a2a2a] transition"
     >
@@ -65,7 +65,7 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">Telor kuda</div>
+        <div class="font-bold text-lg">Malas</div>
         <div class="text-gray-300">Kalcer abis.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 3 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 1</div>
       </div>
