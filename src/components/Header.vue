@@ -70,9 +70,9 @@ onUnmounted(() => {
     lareii<span :class="['text-2xl', status]">.github.io</span>
   </div>
   <div>
-    emirhan (aka larei), self-taught developer,
-    <a href="https://www.youtube.com/watch?v=9sJUDx7iEJw" target="_blank" class="underline">free software</a>
-    enthusiast. programming, music, math.
+    Brian Abraham (aka MarV), Work as game developer,
+    <a href="https://youtube.com/@marvbtm?si=EiSURFRZAbfMP3It" target="_blank" class="underline">youtube channel</a>
+    feel free to subs. programming, music, gaming.
   </div>
   <div class="flex items-center gap-2 text-sm text-gruvbox-gray">
     <font-awesome-icon :icon="['fab', 'spotify']" class="w-4 h-4 mr-0.5" />
@@ -93,7 +93,7 @@ onUnmounted(() => {
     <div v-else>i'm not working on anything right now.</div>
   </div>
   <div class="flex gap-10 mt-5 text-xl">
-    <a href="https://github.com/lareii/" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a>
-    <a href="https://discord.com/users/748539900793716887" target="_blank"><font-awesome-icon :icon="['fab', 'discord']" /></a>
+    <a href="https://github.com/profile/" target="_blank"><font-awesome-icon :icon="['fab', 'github']" /></a>
+    <a href="https://discord.com/users/907316283320725614" target="_blank"><font-awesome-icon :icon="['fab', 'discord']" /></a>
   </div>
 </template>
