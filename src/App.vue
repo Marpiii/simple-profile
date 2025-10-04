@@ -3,39 +3,6 @@ import Header from './components/Header.vue';
 import Uses from './components/Uses.vue';
 import Projects from './components/Projects.vue';
 import Footer from './components/Footer.vue';
-import { onMounted, ref } from 'vue';
-
-const audioRef = ref(null);
-
-onMounted(() => {
-  const playlist = [
-    '/music/Coba Lagi.mp3',
-    '/music/Paling Sabi.mp3',
-    '/music/Tenxi - Berubah (Official Music Video).mp3',
-    '/music/Tenxi, suisei & Jemsii - mejikuhibiniu (Official Music Video).mp3'
-  ];
-
-  let index = 0;
-  const audio = audioRef.value;
-
-  const playNext = () => {
-    audio.src = playlist[index];
-    audio.play().catch(() => {});
-    index = (index + 1) % playlist.length;
-  };
-
-  audio.addEventListener('ended', playNext);
-
-  const startPlay = () => {
-    playNext();
-    window.removeEventListener('click', startPlay);
-    window.removeEventListener('scroll', startPlay);
-  };
-
-  // Browser butuh interaksi user sebelum play
-  window.addEventListener('click', startPlay, { once: true });
-  window.addEventListener('scroll', startPlay, { once: true });
-});
 </script>
 
 <template>
@@ -47,7 +14,4 @@ onMounted(() => {
     <div class="relative mb-10"><Projects /></div>
     <Footer />
   </div>
-
-  <!-- 🎧 Musik Latar -->
-  <audio ref="audioRef" autoplay hidden></audio>
 </template>
