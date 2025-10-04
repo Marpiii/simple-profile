@@ -14,8 +14,8 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">lareii.github.io</div>
-        <div class="text-gray-300">Personal website built with Vue + TailwindCSS.</div>
+        <div class="font-bold text-lg">Biji Pler KudaLareii.Github.Io</div>
+        <div class="text-gray-300">Pake aja ga usah nanya.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 10 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 1</div>
       </div>
     </a>
@@ -31,8 +31,8 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">siker.im</div>
-        <div class="text-gray-300">Simple web app to track goals and habits.</div>
+        <div class="font-bold text-lg">kuda onta</div>
+        <div class="text-gray-300">Banyak Nanya lu.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 7 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 2</div>
       </div>
     </a>
@@ -48,8 +48,8 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">FdF</div>
-        <div class="text-gray-300">42 school project – wireframe visualizer using miniLibX.</div>
+        <div class="font-bold text-lg">pler kambinh</div>
+        <div class="text-gray-300">ga tau males gua.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 5 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 0</div>
       </div>
     </a>
@@ -65,8 +65,8 @@
       </div>
 
       <div>
-        <div class="font-bold text-lg">cub3D</div>
-        <div class="text-gray-300">3D raycasting project – inspired by Wolfenstein.</div>
+        <div class="font-bold text-lg">Telor kuda</div>
+        <div class="text-gray-300">Kalcer abis.</div>
         <div class="mt-2 text-xs text-gray-500">⭐ 3 &nbsp;&nbsp;|&nbsp;&nbsp; 🍴 1</div>
       </div>
     </a>
