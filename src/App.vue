@@ -3,6 +3,7 @@ import Header from './components/Header.vue';
 import Uses from './components/Uses.vue';
 import Projects from './components/Projects.vue';
 import Footer from './components/Footer.vue';
+import { onMounted } from 'vue';
 </script>
 
 <template>
@@ -14,4 +15,38 @@ import Footer from './components/Footer.vue';
     <div class="relative mb-10"><Projects /></div>
     <Footer />
   </div>
+
+  <!-- 🎵 Background Music -->
+  <audio id="bg-music" autoplay hidden></audio>
 </template>
+
+<script setup>
+onMounted(() => {
+  const playlist = [
+    '/music/Coba Lagi.mp3',
+    '/music/Paling Sabi.mp3',
+    '/music/Tenxi - Berubah (Official Music Video).mp3',
+    '/music/Tenxi, suisei & Jemsii - mejikuhibiniu (Official Music Video).mp3'
+  ]
+
+  let current = 0;
+  const music = document.getElementById('bg-music');
+
+  const playNext = () => {
+    music.src = playlist[current];
+    music.play().catch(() => {});
+    current = (current + 1) % playlist.length; // loop playlist
+  };
+
+  music.addEventListener('ended', playNext);
+
+  const initPlay = () => {
+    playNext();
+    window.removeEventListener('click', initPlay);
+    window.removeEventListener('scroll', initPlay);
+  };
+
+  window.addEventListener('click', initPlay, { once: true });
+  window.addEventListener('scroll', initPlay, { once: true });
+});
+</script>
