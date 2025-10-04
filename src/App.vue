@@ -6,6 +6,7 @@ import Footer from './components/Footer.vue';
 import { onMounted, ref } from 'vue';
 
 const audioRef = ref(null);
+const isPlaying = ref(false);
 
 onMounted(() => {
   const playlist = [
@@ -28,13 +29,11 @@ onMounted(() => {
 
   const startPlay = () => {
     playNext();
-    window.removeEventListener('click', startPlay);
-    window.removeEventListener('scroll', startPlay);
+    isPlaying.value = true;
   };
 
-  // ✅ Browser butuh interaksi user sebelum audio bisa mulai
-  window.addEventListener('click', startPlay, { once: true });
-  window.addEventListener('scroll', startPlay, { once: true });
+  // simpan function agar bisa dipanggil dari tombol
+  window.__startMusic = startPlay;
 });
 </script>
 
@@ -47,6 +46,15 @@ onMounted(() => {
     <div class="relative mb-10"><Projects /></div>
     <Footer />
   </div>
+
+  <!-- Tombol play -->
+  <button
+    v-if="!isPlaying"
+    @click="window.__startMusic()"
+    class="fixed bottom-5 right-5 bg-green-500 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-600 transition"
+  >
+    ▶️ Play Music
+  </button>
 
   <!-- 🎧 Musik Latar -->
   <audio ref="audioRef" autoplay hidden></audio>
